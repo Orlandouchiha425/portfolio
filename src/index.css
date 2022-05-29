@@ -1,13 +1,150 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0b0101;
+  border-left:solid 5px white;
+  color:white;
+  
+}
+
+header{
+  padding:2rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+button {
+  width: 130px;
+  height: 60px;
+  color: rgb(249, 248, 248);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgb(252, 252, 252),
+   4px 4px 5px 0px rgb(253, 253, 253);
+
+}
+
+
+
+
+
+
+button:hover{
+  background-color: rgb(8, 0, 255);
+  
+}
+
+.textcolor{
+color: rgb(5, 253, 211);
+}
+
+.textcolor:hover{
+  color: white;
+}
+
+.textcolorh3{
+color: rgb(5, 253, 211);
+}
+
+.navButton{
+  background-color: black;
+  position: fixed; top: 0px; left: 0px; width: 100%;
+  border-bottom: solid 5px white;
+
+}
+
+
+.project{
+  background-color: #0b0101;
+  
+}
+
+
+
+
+.square1{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(249, 15, 15);
+  align-self: start;
+  opacity: .8;
+  animation: bounce 40s ease-out  infinite  ;
+
+
+
+}
+
+.square2{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  animation: bounce 50s ease-out  infinite  alternate;
+  opacity: .8;
+  
+
+}
+
+
+
+
+.square3{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(12, 249, 32);
+  position: absolute;
+  top:100px;
+  left:100px;
+  opacity: .8;
+  animation: bounce 30s ease-out  infinite  alternate;
+
+ 
+ 
+}
+
+
+.Welcome{
+  box-shadow:  4px 4px 6px 0 rgb(212, 212, 212),
+  -4px -4px 6px 0 rgb(255, 255, 255), 
+  inset 4px 4px 6px 0 rgb(255, 254, 254),
+  inset 4px 4px 6px 0 rgb(255, 254, 254);
+}
+
+
+.cardFont{
+  color: black;
+}
+
+@keyframes bounce{
+  0% {
+    transform: translateX(0);
+  }
+
+  
+  33%{
+    background-color: white;
+    transform: translateY(100%);
+  }
+
+  66%{
+    background-color: rgba(247, 206, 1, 0.5);
+    transform: translateX(3000%) translateY(100%);
+  }
+
+  100%{
+    background-color: blueviolet;
+    transform: translateX(500%);
+  }
+
+  }
