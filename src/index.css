@@ -65,7 +65,9 @@ color: rgb(5, 253, 211);
 
 }
 
-
+.hidden{
+  color: grey;
+}
 .project{
   background-color: #0b0101;
   
