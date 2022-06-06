@@ -7,8 +7,24 @@ body {
   background-color: #0b0101;
   border-left:solid 5px white;
   color:white;
+  margin:0;
+  padding:0;
+  list-style:none;
+
+
   
 }
+
+/* *{
+
+  margin:0;
+  padding:0;
+  list-style:none;
+  text-decoration: none;
+ 
+
+} */
+
 
 header{
   padding:2rem;
@@ -46,9 +62,9 @@ button:hover{
   
 }
 
-.textcolor{
+/* .textcolor{
 color: rgb(5, 253, 211);
-}
+} */
 
 .textcolor:hover{
   color: white;
@@ -58,12 +74,12 @@ color: rgb(5, 253, 211);
 color: rgb(5, 253, 211);
 }
 
-.navButton{
-  background-color: black;
+/* .navButton{
+  background-color: rgb(255, 255, 255);
   position: fixed; top: 0px; left: 0px; width: 100%;
   border-bottom: solid 5px white;
 
-}
+} */
 
 .hidden{
   color: grey;
@@ -74,7 +90,76 @@ color: rgb(5, 253, 211);
 }
 
 
+nav{
+  height: 80px;
+  background:white;
+  width:100%;
+}
 
+nav img{
+  width: 90px;
+  position: absolute;
+  top: 100ppx;
+  left: 12%;
+  height: 80px;
+  
+}
+
+nav ul{
+  float: right;
+  margin-right: 25px;
+
+}
+
+
+nav ul li{
+  display: inline;
+  line-height: 80px;
+  margin: 0 15px;
+}
+nav ul li a{
+  position: relative;
+  color: #070707;
+  font-size: 18px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+nav ul li a:before{
+  position: absolute;
+  content: " ";
+  left:0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #000000;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+}
+
+
+nav ul li a:hover:before{
+
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+label #btn,
+label #cancel{
+  color: #000000;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
 
 .square1{
   width: 30px;
@@ -116,12 +201,12 @@ color: rgb(5, 253, 211);
 }
 
 
-.Welcome{
+/* .Welcome{
   box-shadow:  4px 4px 6px 0 rgb(212, 212, 212),
   -4px -4px 6px 0 rgb(255, 255, 255), 
   inset 4px 4px 6px 0 rgb(255, 254, 254),
   inset 4px 4px 6px 0 rgb(255, 254, 254);
-}
+} */
 
 
 .cardFont{
@@ -149,4 +234,46 @@ color: rgb(5, 253, 211);
     transform: translateX(500%);
   }
 
+  }
+
+  /* @media all and (max-width: 570px){
+    body{
+      background-color: rgb(152, 0, 246);
+      color: black;
+    }
+    img{
+      height: 20%;
+      width: 20%;
+    }
+    nav button{
+      height: 50px;
+      width: 90px;
+      background-color: #0b0101;
+      
+
+       
+    } */
+    /* .textColor{
+      color:#0b0101;
+    } */
+    h5{
+      font-size: small;
+      color: tomato;
+     
+    }
+    /* nav{ */
+      /* display: flex;
+      justify-content: center;
+      align-items: left; */
+      /* position: relative;
+      max-width: 5px;
+      box-sizing: inherit; */
+    /* } */
+  /* } */
+
+
+  @media (max-width:1118px){
+    nav img{
+      left:8px;
+    }
   }

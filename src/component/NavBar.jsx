@@ -1,15 +1,30 @@
-import Image from "../Images/Welcome.png"
+import Image from "../Images/Orlando.png"
 export default function NavBar(){
     return(
-        <header>
-        <nav className=" navButton justify-content-center">
+        <header >
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check">
+                <i className="fas fa-bars"  id="btn"></i>
+                <i className="fas fa-times" id="cancel"></i>
+            </label>
+            <img src={Image} alt="Welcome" />
             <main className="hoverButton">
-            <img  className="justify-content-start" src={Image} alt="Welcome Picture" height="8%" width="8%"/>
 
-          <button><a href="#home" className=" textcolor btn btn-lg "> Home</a> </button>  
-          <button>  <a href="#about" className=" textcolor btn btn-lg "> About </a> </button> 
-          <button> <a href="#portfolio"className=" textcolor btn btn-lg "> Portfolio </a> </button>  
-          <button> <a href="#contact" className=" textcolor btn btn-lg "> Contact </a> </button> 
+
+<ul>
+
+    <li><a href="#home" className=" textcolornav cardFont ">Home </a> </li>
+    <li><a href="#about" className=" cardFont  ">About </a> </li>
+    <li><a href="#portfolio" className=" cardFont ">Portfolio </a> </li>
+    <li><a href="#contact" className=" cardFont  ">Contact </a> </li>
+    <li><i className="bi bi-layout-text-sidebar"></i>
+</li>
+</ul>
+          {/* <button><a href="#home" className=" textcolor buttonSize btn btn-lg "> <h5>Home</h5></a> </button>  
+          <button>  <a href="#about" className=" textcolor  buttonSize btn btn-lg "> <h5 >About</h5> </a> </button> 
+          <button> <a href="#portfolio"className=" textcolor  buttonSize btn btn-lg "> <h5>Portfolio</h5> </a> </button>  
+          <button> <a href="#contact" className=" textcolor buttonSize btn btn-lg "><h5 >Contact</h5>  </a> </button>  */}
             </main>
         </nav>
         </header>
