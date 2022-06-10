@@ -3,11 +3,15 @@ export default function NavBar(){
     return(
         <header >
         <nav>
-            <input type="checkbox" id="check" />
-            <label for="check">
+        {/* <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i className="fas fa-bars"></i> */}
+            <input type="checkbox" id="check"/>
+            <label for="check" className="checkbtn">
                 <i className="fas fa-bars"  id="btn"></i>
                 <i className="fas fa-times" id="cancel"></i>
             </label>
+           
             <img src={Image} alt="Welcome" />
             <main className="hoverButton">
 
