@@ -18,17 +18,14 @@ export default function NavBar(){
 
 <ul>
 
-    <li><a href="#home" className=" textcolornav cardFont ">Home </a> </li>
+  
     <li><a href="#about" className=" cardFont  ">About </a> </li>
     <li><a href="#portfolio" className=" cardFont ">Portfolio </a> </li>
     <li><a href="#contact" className=" cardFont  ">Contact </a> </li>
     <li><i className="bi bi-layout-text-sidebar"></i>
 </li>
 </ul>
-          {/* <button><a href="#home" className=" textcolor buttonSize btn btn-lg "> <h5>Home</h5></a> </button>  
-          <button>  <a href="#about" className=" textcolor  buttonSize btn btn-lg "> <h5 >About</h5> </a> </button> 
-          <button> <a href="#portfolio"className=" textcolor  buttonSize btn btn-lg "> <h5>Portfolio</h5> </a> </button>  
-          <button> <a href="#contact" className=" textcolor buttonSize btn btn-lg "><h5 >Contact</h5>  </a> </button>  */}
+    
             </main>
         </nav>
         </header>

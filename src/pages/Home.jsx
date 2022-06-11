@@ -4,7 +4,7 @@ import welcome from './../Images/Welcome.png'
 export default function Home(){
     return(
         <article>
-        <div id="home">
+        {/* <div id="home">
              <div>
              <div  className='textcolorh3'>
              <h4>About Me: </h4>
@@ -16,7 +16,7 @@ export default function Home(){
             <p>Express, REACT and Nodejs </p>
              
          </div>       
-        </div>
+        </div> */}
         </article>
     )
 }

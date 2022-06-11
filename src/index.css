@@ -5,12 +5,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0b0101;
-  border-left:solid 5px white;
+  
   color:white;
-  margin:0;
+  /* margin:0; */
   padding:0;
   list-style:none;
-
+  margin-right: 1rem;
+  margin-left:1rem;
 
   
 }
@@ -94,6 +95,7 @@ nav{
   height: 80px;
   background:white;
   width:100%;
+ 
 }
 
 nav img{
@@ -161,6 +163,24 @@ label #cancel{
   display: none;
 }
 
+.aboutme{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  top: 80px;
+  left: 0;
+  text-align: center;
+  margin-bottom: 12rem;
+ 
+
+  
+}
+.aboutme img{
+  height: auto;
+}
+
+
+
 .square1{
   width: 30px;
   height: 30px;
@@ -172,6 +192,7 @@ label #cancel{
 
 
 }
+
 
 .square2{
   width: 30px;
@@ -258,7 +279,7 @@ label #cancel{
     } */
     h5{
       font-size: small;
-      color: tomato;
+      color:lightseagreen;
      
     }
     /* nav{ */
@@ -284,6 +305,18 @@ label #cancel{
     }
     nav ul li a{
       font-size: 15px;
+    }
+    .aboutme{
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      top: 80px;
+      left: 0;
+      text-align: center;
+      
+    }
+    .aboutme img{
+      height: auto;
     }
   }
 
@@ -314,5 +347,32 @@ label #cancel{
   .cardFont{
     color: rgb(0, 0, 0);
   }
+  .aboutme{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    top: 80px;
+    left: 0;
+    text-align: center;
+    font-size: 15px;
+    
+  }
+  .aboutme img{
+    height: auto;
+  }
+  .cardmedia img{
+  height: 20%;
+  width: 100%;
+  }
+.card-body{
+  font-size: 15px;
+}
+.card-body button{
+  
+height:fit-content;
 
+}
+.project{
+  font-size: small;
+}
   }

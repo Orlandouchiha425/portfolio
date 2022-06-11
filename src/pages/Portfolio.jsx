@@ -6,13 +6,14 @@
 
 export default function Portfolio(){
     return(
-        <div className="card-deck cardFont" id="portfolio">
+
+        <div className="card-deck cardFont cardmedia" id="portfolio">
         <div className="card">
           <img src={project1} className="card-img-top" alt="Project Connect" height="45%" width="50%" />
           <div className="card-body">
             <h5 className="card-title">Project Connect</h5>
-            <p className="card-text">Project Connect is about finding people to collaborate with, such as artist,models,photograpers etc.
-            You can sign up , login find collabortors and send messages</p>
+            <p className="card-text ">Project Connect is about finding people to collaborate with, such as artist,models,photographers etc.
+            You can sign up , login, find collaborators and send messages</p>
             <p>test the website by using the following credentials or Sign Up</p>
             <p>Email: Test@gmail.com </p>
             <p>Password: 123456</p>
@@ -29,7 +30,8 @@ export default function Portfolio(){
           <img src={project2} className="card-img-top" alt="Chatter Your Messaging Center" height="45%" width="50%" />
           <div className="card-body">
             <h5 className="card-title">Chatter</h5>
-            <p className="card-text">This Website allows your to login ,Sign Up and message people by joining a room</p>
+            <p className="card-text">This Website allows you to chat with other users. They will need to be in the same room. Thanks to socket IO, the communication is live and instant.
+            you can sign up , login and send messages </p>
             <p>test the website by using the following credentials or Sign Up</p>
             <p>Email: Test@gmail.com </p>
             <p>Password: 123456</p>
